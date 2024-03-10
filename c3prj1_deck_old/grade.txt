@@ -1,0 +1,18 @@
+Grading at Sun 10 Mar 2024 08:03:33 AM UTC
+Compiling deck.c
+Compiling cards.c
+Linking cards.o deck.o deck-c4.o and the grader's .o file
+/usr/bin/ld: deck-c4.o: in function `make_deck_exclude':
+deck-c4.c:(.text+0x7f): multiple definition of `make_deck_exclude'; deck.o:deck.c:(.text+0x240): first defined here
+/usr/bin/ld: deck-c4.o: in function `add_card_to':
+deck-c4.c:(.text+0x1d0): multiple definition of `add_card_to'; deck.o:deck.c:(.text+0x190): first defined here
+/usr/bin/ld: deck-c4.o: in function `add_empty_card':
+deck-c4.c:(.text+0x29c): multiple definition of `add_empty_card'; deck.o:deck.c:(.text+0x1e0): first defined here
+/usr/bin/ld: deck-c4.o: in function `free_deck':
+deck-c4.c:(.text+0x384): multiple definition of `free_deck'; deck.o:deck.c:(.text+0x400): first defined here
+/usr/bin/ld: deck-c4.o: in function `build_remaining_deck':
+deck-c4.c:(.text+0x3fb): multiple definition of `build_remaining_deck'; deck.o:deck.c:(.text+0x330): first defined here
+collect2: error: ld returned 1 exit status
+Could not link your code!
+
+Overall Grade: FAILED

@@ -1,0 +1,13 @@
+input
+input.txt
+
+input.t
+input1.txt
+.txt
+7 input.txt
+input2.txt
+input3.txt
+input4.txt
+input5.txt
+input6.txt
+

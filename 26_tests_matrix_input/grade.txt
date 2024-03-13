@@ -1,10 +1,20 @@
-Grading at Wed 13 Mar 2024 06:52:29 AM UTC
-I expected to find a file called 'tests.txt' but it did not exist
-(or was not a regular file)
-Here are the files that I can find:
-next-README
-README
-run_all.sh
-Can't proceed without tests.txt
+Grading at Wed 13 Mar 2024 07:24:57 AM UTC
+Checking rotateMatrix1
+Your tests identified the problem with rotateMatrix1
+Checking rotateMatrix2
+Your tests identified the problem with rotateMatrix2
+Checking rotateMatrix3
+Your tests identified the problem with rotateMatrix3
+Checking rotateMatrix4
+Your tests identified the problem with rotateMatrix4
+Checking rotateMatrix5
+Your tests identified the problem with rotateMatrix5
+Checking rotateMatrix6
+Your tests identified the problem with rotateMatrix6
+Checking rotateMatrix7
+Your tests identified the problem with rotateMatrix7
+Checking rotateMatrix8
+Your tests identified the problem with rotateMatrix8
+Your tests identified problems with all broken programs
 
-Overall Grade: FAILED
+Overall Grade: PASSED
